@@ -10,9 +10,9 @@ import json
 
 
 CMC_API_KEY = config("CMC_KEY")
-coin_symbol = "A4h9aifPtz371noBA1Khi2Eb4L3Vzf8LC8PtF4QysEd9"
+coin_symbol = "AAFVGMs8ywAbHYZR1Uzsik59ei0LwJhrxqw"
 
-cmc_url = 'https://api.wavesplatform.com/v0/pairs/{}/DG2xFkPdDwKUoBkzGAhQtLpSGzfXLiCYPEzeKH2Ad24p'.format(coin_symbol)
+cmc_url = 'https://api.wavesplatform.com/v0/pairs/{}/c23c5a30-2657-4832-85ef-f7575f166d6b'.format(coin_symbol)
 
 headers = {
   'accepts': 'application/json',
